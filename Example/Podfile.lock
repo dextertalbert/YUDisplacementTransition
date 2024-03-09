@@ -1,0 +1,25 @@
+PODS:
+  - MetalPetal/Core (1.4.0)
+  - MetalPetal/Swift (1.4.0):
+    - MetalPetal/Core
+  - YUDisplacementTransition (0.1.0):
+    - MetalPetal/Swift
+
+DEPENDENCIES:
+  - YUDisplacementTransition (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MetalPetal
+
+EXTERNAL SOURCES:
+  YUDisplacementTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MetalPetal: 92eea965b9b2f0c677d82618c2e78fa7e4347846
+  YUDisplacementTransition: 2b2c7790b4a6b342166331bdfef226d63f2f9a8f
+
+PODFILE CHECKSUM: 6a9d438d0b2d405a11103cdbe12a373658fe074f
+
+COCOAPODS: 1.7.0.beta.2
