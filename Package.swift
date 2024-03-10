@@ -12,12 +12,12 @@ let package = Package(
             targets: ["YUDisplacementTransition"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/MetalPetal/MetalPetal.git", .branch("master"))
+        .package(name: "MetalPetal", url: "https://github.com/MetalPetal/MetalPetal.git", .branch("master"))
     ],
     targets: [
         .target(
             name: "YUDisplacementTransition",
-            dependencies: [MetalPetal],
+            dependencies: ["MetalPetal"],
             path: "Sources",
             resources: [
                 .process("Assets")
