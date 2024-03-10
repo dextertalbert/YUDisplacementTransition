@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "YUDisplacementTransition",
-            dependencies: [],
+            dependencies: [MetalPetal],
             path: "Sources",
             resources: [
                 .process("Assets")
